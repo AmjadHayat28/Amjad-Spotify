@@ -1,0 +1,264 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+    
+}
+.sidebar{
+    background-color: black;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+.main-content{
+    background-color:#121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 72px;
+    width:100% ;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    padding: 0.5rem 0.7rem;
+    height: 100px;
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.7rem;
+    margin-bottom: 0.5rem;
+    
+    
+}
+.nav-option{ line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.7rem;
+    
+}
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.library{
+    background-color: #121212;
+    height: 100%;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+}
+ 
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.lib-option{
+  margin-left: 0.5rem;
+  display: flex;
+  opacity: 0.7;
+ 
+}
+.lib-option:hover{
+    opacity: 1;
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.5rem;
+
+}
+
+.icon i{
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.icon i:hover{
+    opacity: 1;}
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0 1.75rem 0;
+
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.box-p2{
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+.badge{
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+
+}
+.stiky-nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    padding: 1rem 0 1rem 0;
+
+}
+.stiky-nav-option{
+    margin-left:0.5rem ;
+}
+.nav-item{
+    margin-left:1rem ;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+.card{
+    background-color: #232323;
+    width: 150px;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.8rem;
+    opacity:0.5 ;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-line{
+    width: 90%;
+    height: 30%;
+    border-top:2px solid white;
+    opacity: 0.4;
+}
+
+.music-player{
+    display: flex;
+}
+.album{
+    width: 25%;
+}
+.player{
+   width: 50%;
+}
+.controls{
+    width: 25%;
+}
+.player-control-icon {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 2rem;
+}
+.player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+.player-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-bar{
+    width: 65%;
+    height: 0.3rem;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.control-img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.control-img2{
+    height: 0.8rem;
+    width: 0.8rem;
+    opacity: 0.7;
+
+}
+.vol-bar{
+    height: 0.3rem;
+    width: 7rem;
+}
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.album-img1{
+    height: 3rem;
+    width: 3rem;
+    padding: 0 0.5rem 0 0.5rem;
+    margin-left: 1rem;
+
+}
+.album-img{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-left: 1rem;
+
+}
+.amjad{
+    font-size: 0.6rem;
+    opacity: 0.9;
+}
+.del{padding-top: 0.5rem;}
